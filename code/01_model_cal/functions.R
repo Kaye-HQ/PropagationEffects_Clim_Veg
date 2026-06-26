@@ -246,7 +246,6 @@ methods_evaluate <- function(method, observed, simulated) {
 }
 
 userf <- function(data_table, target_f) {
-  # data_table包含: Year, Obs, Simulated_1, ... Simulated_n
   fit_all <- matrix(NA, nrow=length(target_f), ncol=ncol(data_table)-2)
   Evalue_all <- matrix(NA, nrow=length(target_f), ncol=ncol(data_table)-2)
   
@@ -357,7 +356,7 @@ parrun_HBV_PML <- function(INPUTS, PAR, period, ifRoute, ifPML, target_f) {
   state <- res_pre$state
   par <- res_pre$par
   In_N <- res_pre$In_N
-  valid_vars <- res_pre$valid_vars # 提取安全的列名
+  valid_vars <- res_pre$valid_vars 
   
   Nstart <- INPUTS$Nstart
   Nend <- if(period == 'c') INPUTS$Nend else INPUTS$Nend_v
@@ -695,17 +694,7 @@ parread_exps_mean_annual <- function(pathdata0, basin_name, basin_info_n, LAIpat
   
   INPUTS$in_df <- in_dt   
  
-  # if (exp_type == 'State_LAI') {
-  #   INPUTS$in_df$LAI_GLASSraw <- LAI_GLASSraw 
-  # } else if (exp_type == 'State_P') {       
-  #   INPUTS$in_df$Praw <- raw_data_P 
-  # } else if (exp_type == 'State_T') {
-  #   INPUTS$in_df$Traw <- raw_data_T 
-  # } else if (exp_type == 'State_P_T_LAI') { 
-  #   INPUTS$in_df$LAI_GLASSraw <- LAI_GLASSraw 
-  #   INPUTS$in_df$Praw <- raw_data_P 
-  #   INPUTS$in_df$Traw <- raw_data_T 
-  # }
+
   warmupyears <- 2
   
   temp <- which(!is.na(in_dt$Flow) & !is.na(in_dt$LAI_GLASS) & 

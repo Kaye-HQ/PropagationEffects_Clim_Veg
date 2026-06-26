@@ -20,7 +20,7 @@ csv_names_str <- infos$Name
 Name_all_com <- intersect(Name_all_str, csv_names_str)
 
 
-no_cores <- 1 # 2#detectCores() - 1
+no_cores <- 2 #detectCores() - 1
 cl <- makeCluster(no_cores)
 registerDoParallel(cl)
 
