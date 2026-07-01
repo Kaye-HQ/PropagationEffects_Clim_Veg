@@ -7,7 +7,7 @@
 
 This repository contains the code and data used for the study titled "Disentangling the impacts of changes in climate and vegetation on hydrological processes across 2,252 global catchments". The workflow combines an R-based modeling pipeline with a C++ implementation of the HBV-PML model.
 
-> A streamlined utility implementation of this workflow is also available in the hbvpml R package: https://github.com/Kaye-HQ/hbv.pml
+> A streamlined utility implementation of this workflow is also available in the hbv.pml R package: https://github.com/Kaye-HQ/hbv.pml
 
 ## Overview
 
@@ -74,7 +74,8 @@ The workflow generates results in the following folders:
 
 ## Citation
 
-If you use this workflow or code in your research, please cite the associated study accordingly.
+If you use this workflow or code in your research, please cite the associated study and the repositories accordingly.
+Huang, Q., & Zhang, Y. (2026). PropagationEffects_Clim_Veg: Data and HBV-PML model for 2252 catchments from CAMELS dataset [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.20931178
 
 ## Contact
 
