@@ -76,8 +76,8 @@ The workflow generates results in the following folders:
 
 If you use this workflow or code in your research, please cite the associated study and the repositories accordingly.
 
--Huang, Q., & Zhang, Y. (2026). PropagationEffects_Clim_Veg: Sample Data and HBV-PML model (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.21253454
--Huang, Q., & Zhang, Y. (2026). Disentangling the impacts of changes in climate and vegetation on hydrological processes across 2,252 global catchments. Water Resources Research, 62, e2025WR043326. https://doi.org/10.1029/2025WR043326
+- Huang, Q., & Zhang, Y. (2026). PropagationEffects_Clim_Veg: Sample Data and HBV-PML model (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.21253454
+- Huang, Q., & Zhang, Y. (2026). Disentangling the impacts of changes in climate and vegetation on hydrological processes across 2,252 global catchments. Water Resources Research, 62, e2025WR043326. https://doi.org/10.1029/2025WR043326
 
 ## Contact
 
